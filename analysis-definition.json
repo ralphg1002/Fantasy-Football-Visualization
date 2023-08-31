@@ -1,0 +1,114 @@
+{
+    "DataSetIdentifierDeclarations": [
+        {
+            "Identifier": "",
+            "DataSetArn": "arn:aws:quicksight:us-east-1:<Accountid>:dataset/"
+        }
+    ],
+    "Sheets": [
+        {
+            "SheetId": "",
+            "Name": "",
+            "Visuals": [
+                {
+                    "LineChartVisual": {
+                        "VisualId": "5cd05e12-500d-4f82-93f2-3fa58026a605", 
+                        "Title": {
+                                "Visibility": "VISIBLE"
+                        }, 
+                        "Subtitle": {
+                            "Visibility": "VISIBLE"
+                        }, 
+                        "ChartConfiguration": {
+                            "FieldWells": {
+                                "LineChartAggregatedFieldWells": {
+                                    "Category": [
+                                        {
+                                            "CategoricalDimensionField": {
+                                                "FieldId": "1e72a675-c472-4c99-a1a5-c700de758947.brand.0.1692490022757", 
+                                                "Column": {
+                                                    "DataSetIdentifier": "",
+                                                    "ColumnName": "Team"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }, 
+                            "SortConfiguration": {
+                                "CategoryItemsLimitConfiguration": {
+                                    "OtherCategories": "INCLUDE"
+                                }, 
+                                "ColorItemsLimitConfiguration": {
+                                    "OtherCategories": "INCLUDE"
+                                }, 
+                                "SmallMultiplesLimitConfiguration": {
+                                    "OtherCategories": "INCLUDE"
+                                }
+                            }, 
+                            "Type": "STACKED_AREA", 
+                            "DataLabels": {
+                                "Visibility": "HIDDEN", 
+                                "Overlap": "DISABLE_OVERLAP"
+                            }, 
+                            "Tooltip": {
+                                "TooltipVisibility": "VISIBLE", 
+                                "SelectedTooltipType": "DETAILED", 
+                                "FieldBasedTooltip": {
+                                    "AggregationVisibility": "HIDDEN", 
+                                    "TooltipTitleType": "PRIMARY_VALUE", 
+                                    "TooltipFields": [
+                                        {
+                                            "FieldTooltipItem": {
+                                                "FieldId": "1e72a675-c472-4c99-a1a5-c700de758947.brand.0.1692490022757", 
+                                                "Visibility": "VISIBLE"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ], 
+            "Layouts": [
+                {
+                    "Configuration": {
+                        "GridLayout": {
+                            "Elements": [
+                                {
+                                    "ElementId": "5cd05e12-500d-4f82-93f2-3fa58026a605", 
+                                    "ElementType": "VISUAL", 
+                                    "ColumnSpan": 18, 
+                                    "RowSpan": 12
+                                }
+                            ], 
+                            "CanvasSizeOptions": {
+                                "ScreenCanvasSizeOptions": {
+                                    "ResizeOption": "FIXED", 
+                                    "OptimizedViewPortWidth": "1600px"
+                                }
+                            }
+                        }
+                    }
+                }
+            ], 
+            "ContentType": "INTERACTIVE"
+        }
+    ],
+    "AnalysisDefaults": {
+        "DefaultNewSheetConfiguration": {
+            "InteractiveLayoutConfiguration": {
+                "Grid": {
+                    "CanvasSizeOptions": {
+                        "ScreenCanvasSizeOptions": {
+                            "ResizeOption": "FIXED", 
+                            "OptimizedViewPortWidth": "1600px"
+                        }
+                    }
+                }
+            }, 
+            "SheetContentType": "INTERACTIVE"
+        }
+    }
+}

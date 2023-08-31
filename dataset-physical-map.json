@@ -1,0 +1,23 @@
+{
+    "S3Source": {
+        "DataSourceArn": "arn:aws:quicksight:us-east-1:<Accountid>:datasource/",
+        "UploadSettings": {
+            "Format": "CSV",
+            "StartFromRow": 1,
+            "ContainsHeader": true,
+            "TextQualifier": "DOUBLE_QUOTE",
+            "Delimiter": ","
+        },
+        "InputColumns": [
+            {"Name": "Rank", "Type": "STRING"},
+            {"Name": "Player", "Type": "STRING"},
+            {"Name": "Team", "Type": "STRING"},
+            {"Name": "Position", "Type": "STRING"},
+            {"Name": "Age", "Type": "STRING"},
+            {"Name": "Games Played", "Type": "STRING"},
+            {"Name": "Total PPR", "Type": "STRING"},
+            {"Name": "AVG PPR", "Type": "STRING"},
+            {"Name": "PosRank", "Type": "STRING"}
+        ]
+    }
+}

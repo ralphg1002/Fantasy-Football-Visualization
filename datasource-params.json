@@ -1,0 +1,8 @@
+{
+    "S3Parameters": {
+        "ManifestFileLocation": {
+            "Bucket": "",
+            "Key": "manifest.json"
+        }
+    }
+}
